@@ -1,25 +1,104 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1e4-iv-DQw">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--third-->
+        <scene sceneID="QA8-cP-w9v">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xTz-VD-yGh" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="9ol-aw-GRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="hDn-5V-Beu"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="qCq-AW-qwI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="third" image="third" id="kst-rs-ViD" customClass="RAMAnimatedTabBarItem" customModule="STswift" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="IGJ-3f-xMq" id="5kQ-rS-Nsc"/>
+                        </connections>
+                    </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agF-0b-cqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="IGJ-3f-xMq" customClass="RAMRotationAnimation" customModule="STswift" customModuleProvider="target"/>
             </objects>
         </scene>
+        <!--second-->
+        <scene sceneID="NQ8-Z5-QbB">
+            <objects>
+                <viewController id="hXo-IM-ekb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xtL-kd-RWf"/>
+                        <viewControllerLayoutGuide type="bottom" id="XGu-L3-cff"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eUP-nI-t6t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="second" image="second" id="zJF-9r-YFE" customClass="RAMAnimatedTabBarItem" customModule="STswift" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="kit-Lg-iuP" id="0hT-vG-Iyb"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ano-wZ-DZG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="kit-Lg-iuP" customClass="RAMBounceAnimation" customModule="STswift" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="355" y="855"/>
+        </scene>
+        <!--first-->
+        <scene sceneID="9Mr-NQ-Gfv">
+            <objects>
+                <viewController id="gAt-fM-jFC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xhc-ri-4yr"/>
+                        <viewControllerLayoutGuide type="bottom" id="vOi-V0-oC7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v9c-dP-dWC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="first" image="first" id="hDj-Ln-E4z" customClass="RAMAnimatedTabBarItem" customModule="STswift" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="S32-pH-jnB" id="uqy-S5-NiZ"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dDh-Ee-Ns5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="S32-pH-jnB" customClass="RAMFlipBottomTransitionItemAniamtions" customModule="STswift" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-274" y="849"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="x4w-Mt-VHr">
+            <objects>
+                <tabBarController id="1e4-iv-DQw" customClass="RAMAnimatedTabBarController" customModule="STswift" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="dfA-hQ-Hmm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gAt-fM-jFC" kind="relationship" relationship="viewControllers" id="vqP-Wp-di8"/>
+                        <segue destination="hXo-IM-ekb" kind="relationship" relationship="viewControllers" id="RbA-aB-GLs"/>
+                        <segue destination="xTz-VD-yGh" kind="relationship" relationship="viewControllers" id="ECI-b4-Qek"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u0r-qR-bOx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17" y="56"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+        <image name="third" width="30" height="30"/>
+    </resources>
 </document>
