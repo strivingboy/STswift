@@ -54,7 +54,7 @@
         <!--first-->
         <scene sceneID="9Mr-NQ-Gfv">
             <objects>
-                <viewController id="gAt-fM-jFC" sceneMemberID="viewController">
+                <viewController id="gAt-fM-jFC" customClass="FirstViewController" customModule="STswift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xhc-ri-4yr"/>
                         <viewControllerLayoutGuide type="bottom" id="vOi-V0-oC7"/>

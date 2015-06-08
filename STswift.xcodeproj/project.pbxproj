@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33B3EFA1B25E4FF00A139B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33B3EF91B25E4FF00A139B8 /* FirstViewController.swift */; };
 		D35942361B1B573900DEC353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35942351B1B573900DEC353 /* AppDelegate.swift */; };
-		D35942381B1B573900DEC353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35942371B1B573900DEC353 /* ViewController.swift */; };
 		D359423B1B1B573900DEC353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35942391B1B573900DEC353 /* Main.storyboard */; };
 		D359423D1B1B573900DEC353 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D359423C1B1B573900DEC353 /* Images.xcassets */; };
 		D35942401B1B573900DEC353 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D359423E1B1B573900DEC353 /* LaunchScreen.xib */; };
 		D359424C1B1B573900DEC353 /* STswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359424B1B1B573900DEC353 /* STswiftTests.swift */; };
+		D3B69B251B25DBD700DABC0A /* STCheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B69B241B25DBD700DABC0A /* STCheckBoxButton.swift */; };
 		D3DC609B1B1CA5EE00E5BCB2 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC60901B1CA5ED00E5BCB2 /* RAMBounceAnimation.swift */; };
 		D3DC609C1B1CA5EE00E5BCB2 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC60921B1CA5ED00E5BCB2 /* RAMFrameItemAnimation.swift */; };
 		D3DC609D1B1CA5EE00E5BCB2 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC60941B1CA5ED00E5BCB2 /* RAMFumeAnimation.swift */; };
@@ -33,16 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D33B3EF91B25E4FF00A139B8 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D35942301B1B573900DEC353 /* STswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35942341B1B573900DEC353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35942351B1B573900DEC353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D35942371B1B573900DEC353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D359423A1B1B573900DEC353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D359423C1B1B573900DEC353 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D359423F1B1B573900DEC353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D35942451B1B573900DEC353 /* STswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D359424A1B1B573900DEC353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D359424B1B1B573900DEC353 /* STswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STswiftTests.swift; sourceTree = "<group>"; };
+		D3B69B241B25DBD700DABC0A /* STCheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCheckBoxButton.swift; sourceTree = "<group>"; };
 		D3DC60901B1CA5ED00E5BCB2 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
 		D3DC60921B1CA5ED00E5BCB2 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
 		D3DC60941B1CA5ED00E5BCB2 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
@@ -92,8 +94,9 @@
 		D35942321B1B573900DEC353 /* STswift */ = {
 			isa = PBXGroup;
 			children = (
+				D3B69B231B25DBD700DABC0A /* STKit */,
 				D35942351B1B573900DEC353 /* AppDelegate.swift */,
-				D35942371B1B573900DEC353 /* ViewController.swift */,
+				D33B3EF91B25E4FF00A139B8 /* FirstViewController.swift */,
 				D35942391B1B573900DEC353 /* Main.storyboard */,
 				D359423C1B1B573900DEC353 /* Images.xcassets */,
 				D359423E1B1B573900DEC353 /* LaunchScreen.xib */,
@@ -125,6 +128,14 @@
 				D359424A1B1B573900DEC353 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3B69B231B25DBD700DABC0A /* STKit */ = {
+			isa = PBXGroup;
+			children = (
+				D3B69B241B25DBD700DABC0A /* STCheckBoxButton.swift */,
+			);
+			path = STKit;
 			sourceTree = "<group>";
 		};
 		D3DC60461B1CA58C00E5BCB2 /* ThirdParty */ = {
@@ -310,10 +321,11 @@
 				D3DC60A11B1CA5EE00E5BCB2 /* RAMItemAnimationProtocol.swift in Sources */,
 				D3DC609B1B1CA5EE00E5BCB2 /* RAMBounceAnimation.swift in Sources */,
 				D3DC609F1B1CA5EE00E5BCB2 /* RAMTransitionItemAnimation.swift in Sources */,
-				D35942381B1B573900DEC353 /* ViewController.swift in Sources */,
 				D3DC60A01B1CA5EE00E5BCB2 /* RAMAnimatedTabBarController.swift in Sources */,
 				D35942361B1B573900DEC353 /* AppDelegate.swift in Sources */,
 				D3DC609E1B1CA5EE00E5BCB2 /* RAMRotationAnimation.swift in Sources */,
+				D3B69B251B25DBD700DABC0A /* STCheckBoxButton.swift in Sources */,
+				D33B3EFA1B25E4FF00A139B8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
