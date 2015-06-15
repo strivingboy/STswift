@@ -13,7 +13,6 @@
 		D359423D1B1B573900DEC353 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D359423C1B1B573900DEC353 /* Images.xcassets */; };
 		D35942401B1B573900DEC353 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D359423E1B1B573900DEC353 /* LaunchScreen.xib */; };
 		D359424C1B1B573900DEC353 /* STswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359424B1B1B573900DEC353 /* STswiftTests.swift */; };
-		D3B69B251B25DBD700DABC0A /* STCheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B69B241B25DBD700DABC0A /* STCheckBoxButton.swift */; };
 		D3DC609B1B1CA5EE00E5BCB2 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC60901B1CA5ED00E5BCB2 /* RAMBounceAnimation.swift */; };
 		D3DC609C1B1CA5EE00E5BCB2 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC60921B1CA5ED00E5BCB2 /* RAMFrameItemAnimation.swift */; };
 		D3DC609D1B1CA5EE00E5BCB2 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC60941B1CA5ED00E5BCB2 /* RAMFumeAnimation.swift */; };
@@ -21,6 +20,8 @@
 		D3DC609F1B1CA5EE00E5BCB2 /* RAMTransitionItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC60981B1CA5ED00E5BCB2 /* RAMTransitionItemAnimation.swift */; };
 		D3DC60A01B1CA5EE00E5BCB2 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC60991B1CA5ED00E5BCB2 /* RAMAnimatedTabBarController.swift */; };
 		D3DC60A11B1CA5EE00E5BCB2 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC609A1B1CA5EE00E5BCB2 /* RAMItemAnimationProtocol.swift */; };
+		D3E4834E1B2F11C500513196 /* STCheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4834D1B2F11C500513196 /* STCheckBoxButton.swift */; };
+		D3E483511B2F184C00513196 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E483501B2F184C00513196 /* UIViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,6 @@
 		D35942451B1B573900DEC353 /* STswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D359424A1B1B573900DEC353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D359424B1B1B573900DEC353 /* STswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STswiftTests.swift; sourceTree = "<group>"; };
-		D3B69B241B25DBD700DABC0A /* STCheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCheckBoxButton.swift; sourceTree = "<group>"; };
 		D3DC60901B1CA5ED00E5BCB2 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
 		D3DC60921B1CA5ED00E5BCB2 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
 		D3DC60941B1CA5ED00E5BCB2 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		D3DC60981B1CA5ED00E5BCB2 /* RAMTransitionItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimation.swift; sourceTree = "<group>"; };
 		D3DC60991B1CA5ED00E5BCB2 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
 		D3DC609A1B1CA5EE00E5BCB2 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		D3E4834D1B2F11C500513196 /* STCheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCheckBoxButton.swift; sourceTree = "<group>"; };
+		D3E483501B2F184C00513196 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,7 @@
 		D35942321B1B573900DEC353 /* STswift */ = {
 			isa = PBXGroup;
 			children = (
-				D3B69B231B25DBD700DABC0A /* STKit */,
+				D3E4834C1B2F11C500513196 /* STUIKit */,
 				D35942351B1B573900DEC353 /* AppDelegate.swift */,
 				D33B3EF91B25E4FF00A139B8 /* FirstViewController.swift */,
 				D35942391B1B573900DEC353 /* Main.storyboard */,
@@ -128,14 +130,6 @@
 				D359424A1B1B573900DEC353 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D3B69B231B25DBD700DABC0A /* STKit */ = {
-			isa = PBXGroup;
-			children = (
-				D3B69B241B25DBD700DABC0A /* STCheckBoxButton.swift */,
-			);
-			path = STKit;
 			sourceTree = "<group>";
 		};
 		D3DC60461B1CA58C00E5BCB2 /* ThirdParty */ = {
@@ -214,6 +208,23 @@
 				D3DC60981B1CA5ED00E5BCB2 /* RAMTransitionItemAnimation.swift */,
 			);
 			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		D3E4834C1B2F11C500513196 /* STUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4834F1B2F13EA00513196 /* Extension */,
+				D3E4834D1B2F11C500513196 /* STCheckBoxButton.swift */,
+			);
+			path = STUIKit;
+			sourceTree = "<group>";
+		};
+		D3E4834F1B2F13EA00513196 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3E483501B2F184C00513196 /* UIViewExt.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,11 +332,12 @@
 				D3DC60A11B1CA5EE00E5BCB2 /* RAMItemAnimationProtocol.swift in Sources */,
 				D3DC609B1B1CA5EE00E5BCB2 /* RAMBounceAnimation.swift in Sources */,
 				D3DC609F1B1CA5EE00E5BCB2 /* RAMTransitionItemAnimation.swift in Sources */,
+				D3E483511B2F184C00513196 /* UIViewExt.swift in Sources */,
 				D3DC60A01B1CA5EE00E5BCB2 /* RAMAnimatedTabBarController.swift in Sources */,
 				D35942361B1B573900DEC353 /* AppDelegate.swift in Sources */,
 				D3DC609E1B1CA5EE00E5BCB2 /* RAMRotationAnimation.swift in Sources */,
-				D3B69B251B25DBD700DABC0A /* STCheckBoxButton.swift in Sources */,
 				D33B3EFA1B25E4FF00A139B8 /* FirstViewController.swift in Sources */,
+				D3E4834E1B2F11C500513196 /* STCheckBoxButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
