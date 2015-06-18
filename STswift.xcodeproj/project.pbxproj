@@ -22,6 +22,10 @@
 		D3DC60A11B1CA5EE00E5BCB2 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC609A1B1CA5EE00E5BCB2 /* RAMItemAnimationProtocol.swift */; };
 		D3E4834E1B2F11C500513196 /* STCheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4834D1B2F11C500513196 /* STCheckBoxButton.swift */; };
 		D3E483511B2F184C00513196 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E483501B2F184C00513196 /* UIViewExt.swift */; };
+		D3FDC4121B3308C10044E18F /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDC4111B3308C10044E18F /* UIImageExt.swift */; };
+		D3FDC4141B3309700044E18F /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDC4131B3309700044E18F /* UIImageViewExt.swift */; };
+		D3FDC4161B3310DD0044E18F /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDC4151B3310DD0044E18F /* UIColorExt.swift */; };
+		D3FDC41A1B331B3A0044E18F /* NSDateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDC4191B331B3A0044E18F /* NSDateExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		D3DC609A1B1CA5EE00E5BCB2 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
 		D3E4834D1B2F11C500513196 /* STCheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STCheckBoxButton.swift; sourceTree = "<group>"; };
 		D3E483501B2F184C00513196 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		D3FDC4111B3308C10044E18F /* UIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		D3FDC4131B3309700044E18F /* UIImageViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		D3FDC4151B3310DD0044E18F /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		D3FDC4191B331B3A0044E18F /* NSDateExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,7 @@
 		D35942321B1B573900DEC353 /* STswift */ = {
 			isa = PBXGroup;
 			children = (
+				D3FDC4171B3317B80044E18F /* STBaseKit */,
 				D3E4834C1B2F11C500513196 /* STUIKit */,
 				D35942351B1B573900DEC353 /* AppDelegate.swift */,
 				D33B3EF91B25E4FF00A139B8 /* FirstViewController.swift */,
@@ -223,6 +232,25 @@
 			isa = PBXGroup;
 			children = (
 				D3E483501B2F184C00513196 /* UIViewExt.swift */,
+				D3FDC4111B3308C10044E18F /* UIImageExt.swift */,
+				D3FDC4131B3309700044E18F /* UIImageViewExt.swift */,
+				D3FDC4151B3310DD0044E18F /* UIColorExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D3FDC4171B3317B80044E18F /* STBaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				D3FDC4181B3317B80044E18F /* Extension */,
+			);
+			path = STBaseKit;
+			sourceTree = "<group>";
+		};
+		D3FDC4181B3317B80044E18F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3FDC4191B331B3A0044E18F /* NSDateExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -331,11 +359,15 @@
 				D3DC609C1B1CA5EE00E5BCB2 /* RAMFrameItemAnimation.swift in Sources */,
 				D3DC60A11B1CA5EE00E5BCB2 /* RAMItemAnimationProtocol.swift in Sources */,
 				D3DC609B1B1CA5EE00E5BCB2 /* RAMBounceAnimation.swift in Sources */,
+				D3FDC41A1B331B3A0044E18F /* NSDateExt.swift in Sources */,
 				D3DC609F1B1CA5EE00E5BCB2 /* RAMTransitionItemAnimation.swift in Sources */,
+				D3FDC4121B3308C10044E18F /* UIImageExt.swift in Sources */,
 				D3E483511B2F184C00513196 /* UIViewExt.swift in Sources */,
 				D3DC60A01B1CA5EE00E5BCB2 /* RAMAnimatedTabBarController.swift in Sources */,
+				D3FDC4141B3309700044E18F /* UIImageViewExt.swift in Sources */,
 				D35942361B1B573900DEC353 /* AppDelegate.swift in Sources */,
 				D3DC609E1B1CA5EE00E5BCB2 /* RAMRotationAnimation.swift in Sources */,
+				D3FDC4161B3310DD0044E18F /* UIColorExt.swift in Sources */,
 				D33B3EFA1B25E4FF00A139B8 /* FirstViewController.swift in Sources */,
 				D3E4834E1B2F11C500513196 /* STCheckBoxButton.swift in Sources */,
 			);

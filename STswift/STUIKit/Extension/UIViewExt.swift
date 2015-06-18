@@ -106,7 +106,8 @@ extension UIView {
         }
     }
     
-    func roundCorner(radius: CGFloat) {
+    func roundCorner(radius: CGFloat)
+    {
         self.layer.cornerRadius = radius
     }
     
